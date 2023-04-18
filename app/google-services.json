@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "542788512976",
+    "firebase_url": "https://vogusportsnews-default-rtdb.firebaseio.com",
+    "project_id": "vogusportsnews",
+    "storage_bucket": "vogusportsnews.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542788512976:android:db3530aab4ff66573782d5",
+        "android_client_info": {
+          "package_name": "te_compa.mcoe_news_portal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542788512976-phihqc3g3nj4l646beiqv5gieblch96b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "te_compa.mcoe_news_portal",
+            "certificate_hash": "2a5a15e188492b766e41710f201a5383eb2e7951"
+          }
+        },
+        {
+          "client_id": "542788512976-uos5v07f6icdfs59gr4jp8h9qijee8bl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_WdYjQ2XRScStnfxLRUTQGjtggZLigrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542788512976-op8jocakvi55oo4cdnf7aq0pbfh0ucbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542788512976:android:1c83f1e4a7e8c4013782d5",
+        "android_client_info": {
+          "package_name": "te_compa.mcoe_news_portal_user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542788512976-u59g63b4k4p8iea3cparq261qhlrf7k9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "te_compa.mcoe_news_portal_user",
+            "certificate_hash": "2a5a15e188492b766e41710f201a5383eb2e7951"
+          }
+        },
+        {
+          "client_id": "542788512976-uos5v07f6icdfs59gr4jp8h9qijee8bl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_WdYjQ2XRScStnfxLRUTQGjtggZLigrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542788512976-op8jocakvi55oo4cdnf7aq0pbfh0ucbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
