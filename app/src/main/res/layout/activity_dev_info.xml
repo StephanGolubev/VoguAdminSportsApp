@@ -61,7 +61,7 @@
                 android:layout_height="260dp"
                 android:background="@drawable/border"
                 android:scaleType="fitXY"
-                app:srcCompat="@mipmap/devpic"
+                app:srcCompat="@mipmap/collegebuilding"
                 tools:layout_editor_absoluteX="57dp"
                 tools:layout_editor_absoluteY="90dp" />
 

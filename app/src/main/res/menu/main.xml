@@ -4,6 +4,6 @@
     <item
         android:id="@+id/addAdmin"
         android:orderInCategory="100"
-        android:title="Add New Admin"
+        android:title="Добавить админа"
         app:showAsAction="never" />
 </menu>

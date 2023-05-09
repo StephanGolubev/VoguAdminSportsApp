@@ -6,37 +6,37 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/notices"
-            android:title="General Notices"
+            android:title="Главные новости"
             android:icon="@mipmap/notices"/>
         <item
             android:id="@+id/sports"
-            android:title="Sports News"
+            android:title="Волейбол"
             android:icon="@mipmap/sports"/>
         <item
             android:id="@+id/cultural"
-            android:title="Cultural Programs"
+            android:title="Футбол"
             android:icon="@mipmap/cultural"/>
         <item
             android:id="@+id/technical"
-            android:title="Technical Programs"
+            android:title="Баксетбол"
             android:icon="@mipmap/technical"/>
         <item
             android:id="@+id/achievements"
-            android:title="Academic Achievements"
+            android:title="Достижения"
             android:icon="@mipmap/achievement"/>
 
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Дополнительная информация">
         <menu>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Поделиться" />
             <item
                 android:id="@+id/AboutUs"
                 android:icon="@mipmap/aboutus"
-                android:title="About Us" />
+                android:title="О нас" />
         </menu>
     </item>
 

@@ -44,5 +44,6 @@
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="366dp" />
+        tools:layout_editor_absoluteY="366dp"
+        tools:ignore="MissingConstraints" />
 </android.support.constraint.ConstraintLayout>

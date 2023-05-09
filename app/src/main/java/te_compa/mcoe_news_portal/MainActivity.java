@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity
     private NewsAdapter newsAdapter;
      ArrayList<newsData> newslist;
     private ProgressBar mProgressBar;
-    public static String type = "General Notice";
+    public static String type = "ВоГУ Новости";
 
     public MainActivity() {
         newslist = null;
@@ -150,43 +150,43 @@ public class MainActivity extends AppCompatActivity
             mNewsListView.setAdapter(newsAdapter);
             toolbar.setTitle(R.string.General);
             mProgressBar.setVisibility(ProgressBar.VISIBLE);
-            myRef.child("General Notice").addValueEventListener(readFromDatabase());
+            myRef.child("Спортивные события").addValueEventListener(readFromDatabase());
         } else if (id == R.id.sports) {
             toolbar.setTitle(R.string.Sports);
             newslist.clear();
             type = getString(R.string.Sports);
             mNewsListView.setAdapter(newsAdapter);
             mProgressBar.setVisibility(ProgressBar.VISIBLE);
-            myRef.child("Sports News").addValueEventListener(readFromDatabase());
+            myRef.child("Волейбол").addValueEventListener(readFromDatabase());
         } else if (id == R.id.cultural) {
             toolbar.setTitle(R.string.Cultural);
             newslist.clear();
             type = getString(R.string.Cultural);
             mNewsListView.setAdapter(newsAdapter);
             mProgressBar.setVisibility(ProgressBar.VISIBLE);
-            myRef.child("Cultural Programs").addValueEventListener(readFromDatabase());
+            myRef.child("Футбол").addValueEventListener(readFromDatabase());
         }
         else if (id == R.id.technical) {
             toolbar.setTitle(R.string.Technical);
             newslist.clear();
             type = getString(R.string.Technical);
             mProgressBar.setVisibility(ProgressBar.VISIBLE);
-            myRef.child("Technical Programs").addValueEventListener(readFromDatabase());
+            myRef.child("Баскетбол").addValueEventListener(readFromDatabase());
         } else if (id == R.id.achievements) {
             toolbar.setTitle(R.string.Academic);
             newslist.clear();
             type = getString(R.string.Academic);
             mProgressBar.setVisibility(ProgressBar.VISIBLE);
-            myRef.child("Academic Achievements").addValueEventListener(readFromDatabase());
+            myRef.child("Марафон").addValueEventListener(readFromDatabase());
         } else if (id == R.id.AboutUs) {
             startActivity(i);
         } else if (id == R.id.nav_share) {
             Intent shareintent = new Intent(android.content.Intent.ACTION_SEND);
             shareintent.setType("text/plain");
-            String shareBodyText = "https://drive.google.com/open?id=1-v_jIXs-Zq2rEektOejakcpijoQ7IoSd";
-            shareintent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Mcoe News Portal Admin App");
+            String shareBodyText = "https://vogu35.ru/";
+            shareintent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Поделиться приложением ВОГУ");
             shareintent.putExtra(android.content.Intent.EXTRA_TEXT, shareBodyText);
-            startActivity(Intent.createChooser(shareintent, "Choose sharing method"));
+            startActivity(Intent.createChooser(shareintent, "Метод"));
         }
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

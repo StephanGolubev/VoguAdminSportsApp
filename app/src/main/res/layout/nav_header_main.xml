@@ -23,7 +23,7 @@
         android:adjustViewBounds="false"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@mipmap/collogo" />
+        app:srcCompat="@mipmap/logo" />
 
     <TextView
         android:id="@+id/textView"
@@ -34,6 +34,6 @@
         android:autoLink="web"
         android:clickable="true"
         android:textColorLink="@color/CollegeLink"
-        android:text="http://moderncoe.edu.in/" />
+        android:text="ВоГУ" />
 
 </RelativeLayout>
